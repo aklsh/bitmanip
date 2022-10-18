@@ -1,0 +1,13 @@
+intermediate/
+
+verilog/
+
+sim_build/
+
+bbox_verif/__pycache__
+
+*.swp
+
+dump.vcd
+
+results.xml

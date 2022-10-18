@@ -1,0 +1,14 @@
+//See LICENSE.iitm for license details
+/*
+
+Author : Mouna Krishna
+Email id : mounakrishna@mindgrovetech.in
+Details: Has the macros used for instruction comparison
+
+--------------------------------------------------------------------------------------------------
+*/
+
+// Add instruction macors here which can be used in the 
+// case statement for understandability and easy modifications.
+
+`define ANDN 'b1
