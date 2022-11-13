@@ -13,68 +13,7 @@ Details: Macros used for instruction comparison in RV32B/RV64B
 // case statement for understandability and easy modifications.
 
 //   INSTRUCTION          |-TYP-||rs2||rs1||-||rd-||-OP--|
-
-
-    `define ANDN     1
-    `define BCLR     2
-    `define BEXT     3
-    `define BINV     4
-    `define BSET     5
-    `define CLMUL    6
-    `define CLMULH   7
-    `define CLMULR   8
-    `define CLZ      9
-    `define CPOP     10
-    `define CTZ      11
-    `define MAX      12
-    `define MAXU     13
-    `define MIN      14
-    `define MINU     15
-    `define ORCB     16
-    `define ORN      17
-    `define ROL      18
-    `define ROR      19
-    `define SEXTB    20
-    `define SEXTH    21
-    `define SH1ADD   22
-    `define SH2ADD   23
-    `define SH3ADD   24
-    `define XNOR     25
-`ifdef RV32
-// RV32 format instructions
-    `define BCLRI     26
-    `define BEXTI     27
-    `define BINVI     28
-    `define BSETI     29
-    `define REV8      30
-    `define RORI      31
-    `define ZEXTH     32
-`else
-// RV64 format instructions
-    `define BCLRI     26
-    `define BEXTI     27
-    `define BINVI     28
-    `define BSETI     29
-    `define REV8      30
-    `define RORI      31
-    `define ZEXTH     32
-
-// RV64 specific instructions
-    `define ADDUW     33
-    `define CLZW      34
-    `define CPOPW     35
-    `define CTZW      36
-    `define ROLW      37
-    `define RORIW     38
-    `define RORW      39
-    `define SH1ADDUW  40
-    `define SH2ADDUW  41
-    `define SH3ADDUW  42
-    `define SLLIUW    43
-`endif 
-
-/* // Common instructions - RV32, RV64 */
-/*
+// Common instructions - RV32, RV64
     `define ANDN      32'b0100000??????????111?????0110011
     `define BCLR      32'b0100100??????????001?????0110011
     `define BEXT      32'b0100100??????????101?????0110011
@@ -132,4 +71,3 @@ Details: Macros used for instruction comparison in RV32B/RV64B
     `define SH3ADDUW  32'b0010000??????????110?????0111011
     `define SLLIUW    32'b000010???????????001?????0011011
 `endif
-*/

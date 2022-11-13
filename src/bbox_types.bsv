@@ -1,8 +1,8 @@
 //See LICENSE.iitm for license details
 /*
 --------------------------------------------------------------------------------------------------
-Author : Mouna Krishna
-Email id : mounakrishna@mindgrovetech.in
+Author : Akilesh Kannan
+Email id : akilesh@smail.iitm.ac.in
 Details: The file contains the structures, macors etc.
          Any new structures, enum, union tagged are expected to be written
          and used everywhere
